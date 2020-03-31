@@ -52,7 +52,8 @@ end
 # end
 
 def hit?(current_card_total)
-  # code hit? here	  prompt_user
+  # code hit? here	  
+  prompt_user
   user_decision = get_user_input
   if user_decision == 's'
     current_card_total
