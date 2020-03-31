@@ -37,7 +37,17 @@ end
 
 def hit?(integer)
   # code hit? here
-  
+  prompt_user
+  get_user_input
+  if get_user_input == "s"
+    !deal_card
+  else get_user_input == "h"
+    deal_card
+  else 
+    invalid_command
+    prompt_user
+  end
+  display_card_total
 end
 
 def invalid_command
