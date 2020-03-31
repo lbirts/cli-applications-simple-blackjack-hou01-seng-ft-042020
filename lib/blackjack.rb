@@ -63,7 +63,7 @@ def runner
   # code runner here
   welcome
   initial_round
-  hit?(sum)
-  display_card_total(sum)
+  # hit?(sum)
+  # display_card_total(sum)
 end
     
